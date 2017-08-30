@@ -2,31 +2,44 @@
 #include <math.h>
 float ac(float r){
 	return pow(r*3.14,2);
-	}
+}
+	
 float pc(float r){
 	return(r*2*3.14);
 }
+
 float asq(float l){
 	return pow(l,2);
 }
 float psq(float l){
 	return (l*4);
 }
+
 float at( float a, float b){
 	return (a*b)/2;
 }
+
 float pt(float a, float b){
 	return sqrt(a*a+b*b)+a+b;
 }
+
 float ar(float a, float b){
 	return a*b;
 }
+
 float pr(float a, float b){
 	return (a*2+b*2);
 }
+
+float areaparalelepipedo(float a, float b){
+	return (a,b);
+}
+
 int main(){
 	float a,b;
+	double error;
 	int opt,aux= 0;
+	
 	printf("Ingrese poligono:\n");
 	printf("1) CIRCULO\n");
 	printf("2) CUADRADO\n");
@@ -96,6 +109,7 @@ int main(){
 				printf("%f\n",pr(a,b));
 			}
 		}
+		
 	printf("Ingrese poligono:\n");
 	printf("1) CIRCULO\n");
 	printf("2) CUADRADO\n");
