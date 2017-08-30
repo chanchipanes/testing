@@ -25,7 +25,7 @@ float pr(float a, float b){
 	return (a*2+b*2);
 }
 int main(){
-	float a,b,res;
+	float a,b;
 	int opt,aux= 0;
 	printf("Ingrese poligono:\n");
 	printf("1) CIRCULO\n");
