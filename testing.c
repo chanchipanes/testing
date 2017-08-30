@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+#include <iso646.h>
+
 float ac(float r){
 	return pow(r*3.14,2);
 }
@@ -31,7 +33,7 @@ float pr(float a, float b){
 	return (a*2+b*2);
 }
 
-float areaparalelepipedo(float a, float b){
+float funcion_nousada(float a, float b){
 	return (a,b);
 }
 
@@ -63,6 +65,7 @@ int main(){
 				printf("%f\n",pc(a));
 			}
 		}
+		
 		if(opt==2){
 			printf("Ingrese lado\n");
 			scanf("%f", &a);
@@ -77,6 +80,7 @@ int main(){
 				printf("%f.2\n",psq(a));
 			}
 		}
+		
 		if(opt==3){
 			printf("Ingrese lado a\n");
 			scanf("%f", &a);
@@ -93,6 +97,7 @@ int main(){
 				printf("%f\n",pt(a,b));
 			}
 		}
+		
 		if(opt==4){
 			printf("Ingrese lado a\n");
 			scanf("%f", &a);
@@ -105,6 +110,7 @@ int main(){
 			if(aux==1){
 				printf("%f\n",ar(a,b));
 			}
+			
 			if(aux==2){
 				printf("%f\n",pr(a,b));
 			}
