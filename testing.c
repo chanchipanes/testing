@@ -40,6 +40,7 @@ float funcion_nousada(float a, float b){
 int main(){
 	float a,b;
 	double error;
+	int x;
 	int opt,aux= 0;
 	
 	printf("Ingrese poligono:\n");
