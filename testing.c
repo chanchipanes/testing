@@ -116,6 +116,12 @@ int main(){
 				printf("%f\n",pr(a,b));
 			}
 		}
+		if(opt==5){
+		
+		}
+		if(opt==6){
+		return 0;
+		}
 		
 	printf("Ingrese poligono:\n");
 	printf("1) CIRCULO\n");
