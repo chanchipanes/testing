@@ -36,6 +36,10 @@ float pr(float a, float b){
 float funcion_nousada(float a, float b){
 	return (a,b);
 }
+int funcion_nousada2(int a, int c){
+	int b;
+	return b*c;
+}
 
 int main(){
 	float a,b;
