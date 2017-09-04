@@ -40,6 +40,11 @@ int funcion_nousada2(int a, int c){
 	int b;
 	return b*c;
 }
+void pedir_memoria(){
+	char *str;
+	str = (char *) malloc(15);
+
+}
 
 int main(){
 	float a,b;
@@ -87,6 +92,7 @@ int main(){
 		}
 		
 		if(opt==3){
+			pedir_memoria();
 			printf("Ingrese lado a\n");
 			scanf("%f", &a);
 			printf("Ingrese lado b\n");
