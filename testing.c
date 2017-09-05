@@ -1,39 +1,39 @@
 #include <stdio.h>
 #include <math.h>
 
-float ac(float r){
+double ac(double r){
 	return pow(r*3.14,2);
 }
 	
-float pc(float r){
+double pc(double r){
 	return(r*2*3.14);
 }
 
-float asq(float l){
+double asq(double l){
 	return pow(l,2);
 }
-float psq(float l){
+double psq(double l){
 	return (l*4);
 }
 
-float at( float a, float b){
+double at( double a, double b){
 	return (a*b)/2;
 }
 
-float pt(float a, float b){
+double pt(double a, double b){
 	return sqrt(a*a+b*b)+a+b;
 }
 
-float ar(float a, float b){
+double ar(double a, double b){
 	return a*b;
 }
 
-float pr(float a, float b){
+double pr(double a, double b){
 	return (a*2+b*2);
 }
 
-int main(){
-	float a,b;
+int main(int argc, char *argv[]){
+	double a,b;
 	int opt= 0;
 	int aux= 0;
 	
