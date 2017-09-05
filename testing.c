@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include <iso646.h>
 
 float ac(float r){
 	return pow(r*3.14,2);
@@ -33,24 +32,10 @@ float pr(float a, float b){
 	return (a*2+b*2);
 }
 
-float funcion_nousada(float a, float b){
-	return (a,b);
-}
-int funcion_nousada2(int a, int c){
-	int b;
-	return b*c;
-}
-void pedir_memoria(){
-	char *str;
-	str = (char *) malloc(15);
-
-}
-
 int main(){
 	float a,b;
-	double error;
-	int x;
-	int opt,aux= 0;
+	int opt= 0;
+	int aux= 0;
 	
 	printf("Ingrese poligono:\n");
 	printf("1) CIRCULO\n");
@@ -126,13 +111,7 @@ int main(){
 				printf("%f\n",pr(a,b));
 			}
 		}
-		if(opt==5){
-		
-		}
-		if(opt==6){
-		return 0;
-		}
-		
+	
 	printf("Ingrese poligono:\n");
 	printf("1) CIRCULO\n");
 	printf("2) CUADRADO\n");
